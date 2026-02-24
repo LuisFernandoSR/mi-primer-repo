@@ -6,6 +6,7 @@
     <title>Pagina 2</title>
 
     <link rel="icon" href="img/icono.png" type="image/png" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <!--img
@@ -73,6 +74,22 @@
         </div>
 
         <span class="clase_ejemplo"><pre><code>&lt;span class="clase_ejemplo"&gt;Este es un span con clase&lt;/span&gt;</code></pre></span>
+      </section>
+
+      <section id="formulario">
+        <h2>Formulario de contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <br /><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+          <br />
+          <input type="submit" value="Enviar mensaje" />
+        </form>
       </section>
     </main>
   </body>
