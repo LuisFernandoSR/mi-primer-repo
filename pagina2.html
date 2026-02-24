@@ -1,15 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pagina 2</title>
+
+    <link rel="icon" href="img/icono.png" type="image/png" />
   </head>
   <body>
-    <img
+    <!--img
       src="https://static.wikia.nocookie.net/el-diario-de-jonathan/images/5/50/Bmo.jpg"
       alt="BMO"
-      width="1000"
-    />
+      width="100
+      "
+    /-->
+    <header>
+      <h1>Fundamentos de html</h1>
+      <p>Esta es la segunda página de mi sitio web.</p>
+
+      <nav>
+        <ul>
+          <li><a href="#anatomia">Elementos</a></li>
+          <li><a href="#contenido">Contenido</a></li>
+          <li><a href="#semantico">div vs span</a></li>
+          <li><a href="#contenedores">Contenedores</a></li>
+          <li><a href="#formularios">Formularios</a></li>
+          <li><a href="#practicas">Buena prácticas</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="anatomia">
+        <h2>Anatomía de un elemento HTML</h2>
+        <p>
+          Un elemento HTML está compuesto por una etiqueta de apertura,
+          contenido y una etiqueta de cierre.
+        </p>
+      </section>
+      <section id="contenido">
+        <h2>Contenido de un elemento</h2>
+        <p>
+          El contenido puede ser texto, imágenes, otros elementos HTML, etc.
+          <strong>Ejemplo:</strong> <em>Este es un texto en negrita y cursiva.</em>
+          <pre><code>&lt;h1&gt;Este es un encabezado&lt;/h1&gt;</code></pre>
+        </p>
+      </section>
+      <section id="semantico">
+        <h2>Semántica: div vs span</h2>
+        <p>
+          Los elementos div son elementos de bloque y span son elementos en
+          línea.
+        </p>
+      </section>
+      <section id="contenedores">
+        <h2>Contenedores</h2>
+        <p>Los contenedores agrupan elementos HTML para facilitar su manejo.</p>
+      </section>
+      <section id="formularios">
+        <h2>Formularios</h2>
+        <p>Los formularios permiten recopilar información del usuario.</p>
+      </section>
+      <section id="practicas">
+        <h2>Buena prácticas</h2>
+        <p>
+          Usar etiquetas semánticas, mantener el código limpio y estructurado.
+        </p>
+
+        <div class="tip">
+          Se esta provando el uso de div para agrupar contenido relacionado y aplicar estilos.
+          Ejemplo: <strong>Este es un texto dentro de un div.</strong>
+        </div>
+
+        <span class="clase_ejemplo"><pre><code>&lt;span class="clase_ejemplo"&gt;Este es un span con clase&lt;/span&gt;</code></pre></span>
+      </section>
+    </main>
   </body>
 </html>
